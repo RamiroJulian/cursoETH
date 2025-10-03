@@ -74,10 +74,7 @@ contract KipuBank {
         vaults[msg.sender] -= amount;
         totalDeposited -= amount;
         withdrawalCount[msg.sender]++;
-
-        (bool success, ) = msg.sender.call{value: amount}("");
-        require(success, "Transfer failed");
-
+        
         emit Withdrawal(msg.sender, amount);
     }
 
