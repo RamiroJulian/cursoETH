@@ -55,13 +55,6 @@ contract KipuBank {
         bankCap = _bankCap;
     }
 
-    receive() external payable {
-        deposit();
-    }
-
-    fallback() external payable {
-        deposit();
-    }
 
     // @notice retira ETH de la boveda personal hasta el limite permitido
     // @param amount monto a retirar.
@@ -74,7 +67,7 @@ contract KipuBank {
         vaults[msg.sender] -= amount;
         totalDeposited -= amount;
         withdrawalCount[msg.sender]++;
-        
+
         emit Withdrawal(msg.sender, amount);
     }
 

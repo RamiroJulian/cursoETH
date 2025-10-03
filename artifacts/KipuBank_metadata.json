@@ -80,10 +80,6 @@
 				"type": "event"
 			},
 			{
-				"stateMutability": "payable",
-				"type": "fallback"
-			},
-			{
 				"inputs": [],
 				"name": "bankCap",
 				"outputs": [
@@ -192,10 +188,6 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
-			},
-			{
-				"stateMutability": "payable",
-				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -226,11 +218,11 @@
 	},
 	"sources": {
 		"KipuBankProject/kipuBank.sol": {
-			"keccak256": "0xfe8ee25ac80779287cce84a7aa38003dfa3e553df612e0f1ba15a027e3ae682f",
+			"keccak256": "0xc144e722fd2f58b355c5e7e9740b58f1a99a0592467f29f7636b6c5606585f27",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ecab779c4a0031a1c8f4b635f091d1b36ba63048796dcc9d8c6568af63d942dd",
-				"dweb:/ipfs/QmVytdRi9dwMKdJUzb3g1RiF8E2nLFsdbFRBityVh8UPoL"
+				"bzz-raw://fc70784a6642c7a4f8f62f9c522f57a2086769709793a9bd73c04df343069117",
+				"dweb:/ipfs/QmbZkjHQYZ2CYthF9ZXdi2M7tYxA75AnCxwfYxTznpx4uM"
 			]
 		}
 	},
