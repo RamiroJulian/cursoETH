@@ -55,6 +55,7 @@ contract KipuBank {
         bankCap = _bankCap;
     }
 
+
     // @notice retira ETH de la boveda personal hasta el limite permitido
     // @param amount monto a retirar.
     // @dev se valida si el monto es mayor a cero y al limite de extraccion, y si no excede el balance actual de la boveda.
